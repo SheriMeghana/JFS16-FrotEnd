@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form file</title>
+</head>
+<body>
+    <div>
+        <form>
+            <h1>students details form</h1>
+            <label>Name : </label>
+            <input type="text"
+            placeholder="enter your name" required/>
+            <br/><br/>
+            <label>Date Of Birth</label>
+            <input type="date"/><br/><br/>
+            <label>Age : </label>
+            <input type="number">
+            <br/>
+            <br/>
+            <label>College Name</label>
+            <input type="text"
+            placeholder="enter your college name" required/>
+            <br/>
+            <br/>
+            <label>Phone Number</label>
+            <input type="number">
+            <br/><br/>
+            <fieldset style="width: 10%;">
+                <legend>Gender</legend>
+                <input type="radio" id="male" name="gender" value="male"/>
+                <label>Male</label><br/>
+                <input type="radio" id="female" name="gender" value="female"/>
+                <label>feMale</label>
+            </fieldset>
+            <fieldset style="width: 20%;">
+                <legend>skills</legend>
+                <input type="checkbox" id="java" name="skills" value="java"/>
+                <label>java</label><br/>
+                <input type="checkbox" id="html" name="skills" value="html"/>
+                <label>html</label><br/>
+                <input type="checkbox" id="sql" name="skills" value="sql"/>
+                <label>sql</label><br/>
+                <input type="checkbox" id="css" name="skills" value="css"/>
+                <label>css</label><br/>
+                <input type="checkbox" id="bootstrap" name="skills" value="bootstrap"/>
+                <label>bootstrap</label><br/>
+            </fieldset>
+            <br/><br/>
+            <label>select Role: </label>
+            <select>
+                <option value="student">
+                    student
+                </option>
+                <option value="Employee">
+                    Employee
+                </option>
+            </select>
+            <br/><br/>
+            <label>Resume:</label>
+            <input type="file"
+            id="resume"
+            name="resume"
+            accept=".pdf, .doc, .docx" required/>
+            <br/><br/>
+            <label>Gmail : </label>
+            <input type="text"
+            placeholder="Enter your Email" required/>
+            <br/><br/>
+
+            <label>password:</label>
+            <input type="password"
+            placeholder="enter your password" required/>
+            <br/><br/>
+            <input type="submit" value="Submit" />
+
+
+    </div>
+    
+</body>
+</html>
