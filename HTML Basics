@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Title Name</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Headings Elements: Heading 1</h1>
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+      <h4>Heading 4</h4>
+      <h5>Heading 5</h5>
+      <h6>Heading 6</h6>
+      <p>This is Para</p>
+      <div>
+        Division: Div is a Block level Element,adding New Line and 100% width
+      </div>
+      <span>span: span is a Inline element,Content Background space only</span>
+      <br />
+      <hr />
+      <img src="../photos/codegnanload.jpeg" />
+      <header>Header Semantic elements</header>
+      <section>Section Semantic elements</section>
+      <footer>Footer Semantic elements</footer>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/>Fugiat, saepe
+        rem, nostrum suscipit labore velit impedit laboriosam <br/>molestias
+        architecto vitae repudiandae tempora aspernatur <br/>doloremque nihil aperiam
+        qui. Tempore, accusamus laboriosam?
+      </p>
+    </div>
+  </body>
+</html>
